@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Иосиф Бродский</title>
+<link href="./css/style.bundle.css" rel="stylesheet"></head>
+<body>
+<main class="sb">
+    <section class="container">
+        <div class="subscriptions">
+            <h1 class="subscriptions__title">Рассылка</h1>
+            <h1 class="subscriptions__title subscriptions__title--success">Подписка успешно оформлена!</h1>
+            <form class="subscriptions__container subscriptions__container--subscriptions">
+                <input class="form-control subscriptions__input btn-light" type="email" id="inputEmail"
+                       placeholder="Email адрес" required="" autofocus="">
+                <button type="submit" class="btn btn-light subscriptions__button">Получить</button>
+            </form>
+            <div class="subscriptions__container subscriptions__container--social-links">
+                <a class="subscriptions__social_link" href="https://instagram.com/nasa">
+                    <img src="../img/inst.png" alt="instagram">
+                </a>
+                <a class="subscriptions__social_link" href="https://m.facebook.com/NASA/">
+                    <img src="../img/facebook.png" alt="facebook">
+                </a>
+                <a class="subscriptions__social_link" href="https://mobile.twitter.com/nasa">
+                    <img src="../img/twitter.png" alt="twitter">
+                </a>
+            </div>
+            <div class="subscriptions__container">
+                <button type="submit" class="btn btn-light subscriptions__button" onclick="window.history.back();">Назад</button>
+            </div>
+        </div>
+    </section>
+</main>
+
+<script type="text/javascript" src="./js/bundle.js"></script></body>
+</html>
